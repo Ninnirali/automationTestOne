@@ -18,15 +18,11 @@ import java.util.Scanner;
 public class ForLoop_Q4 {
 
     public void printMyName(String name, int howManyTime) {
-        // action =  print name
-        //  bigger action  = howManyTime * print a name
-        // how many times do you want to repeat the action
-
+      
         for (int i = 0; i < howManyTime; i++) {
-            // small action
+           
             System.out.println(name);
         }
-
 
     }
     public static void main(String[] args) {
